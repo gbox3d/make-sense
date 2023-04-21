@@ -104,11 +104,12 @@ const MainView: React.FC = () => {
 
             <div className='LeftColumn'>
                 <div className={'LogoWrapper'}>
-                    <img
+                    {/* <img
                         draggable={false}
                         alt={'main-logo'}
                         src={'ico/main-image-color.png'}
-                    />
+                    /> */}
+                    <h1 style={{color:'white'}} > Gear Sense Maker </h1>
                 </div>
                 <div className='EditorFeaturesWrapper'>
                     {getEditorFeatureTiles()}
@@ -124,11 +125,11 @@ const MainView: React.FC = () => {
             <div className='RightColumn'>
                 <div />
                 <ImagesDropZone />
-                <div className='SocialMediaWrapper'>
+                {/* <div className='SocialMediaWrapper'>
                     {getSocialMediaButtons({ width: 30, height: 30 })}
-                </div>
+                </div> */}
                 {!projectInProgress && <TextButton
-                    label={'Get Started'}
+                    label={'시작하기'}
                     onClick={startProject}
                     externalClassName={'get-started-button'}
                 />}

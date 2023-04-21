@@ -32,7 +32,7 @@
     "yolov5js": "^1.0.0"
   },
   "scripts": {
-    "dev": "vite --host --port 3000",
+    "dev": "vite --host --port 21035",
     "start": "vite --port 3000",
     "build": "vite build",
     "preview": "vite preview --host --port 3000",
